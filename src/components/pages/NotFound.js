@@ -17,7 +17,7 @@ const NotFound = ({error}) => {
         <p className='textError'>Error: {errorCode} - {errorMessage}</p>
         <p className='textNotFound'>the page you requested could not be found. We are working on it</p>
         <img src={NotFoundGif} alt="" className='notFoundGif' />
-      <Link to={"/"} className="linkBack" >
+      <Link to={"/RestAPI-React"} className="linkBack" >
           <div className="inputButton buttonBackNotFound">
             <IconArrowLeft className="iconArrowLeft" />
             Back
