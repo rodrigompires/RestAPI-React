@@ -45,7 +45,7 @@ const CountryPage = () => {
   return (
     <>
       <section className="containerPageCountry">
-        <Link to={"/"} className="linkBack">
+        <Link to={"/RestAPI-React/"} className="linkBack">
           <div className="inputButton">
             <IconArrowLeft className="iconArrowLeft" />
             Back
