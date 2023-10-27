@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RestAPI-React/static/css/main.03fae254.css",
+    "main.js": "/RestAPI-React/static/js/main.8dfb9181.js",
+    "static/media/Testimonials.gif": "/RestAPI-React/static/media/Testimonials.f80daac340dd29156ee1.gif",
+    "static/media/NFT.gif": "/RestAPI-React/static/media/NFT.828c46833cf099c58713.gif",
+    "static/media/Mario.gif": "/RestAPI-React/static/media/Mario.84e27c03ee1e4ed8fbc2.gif",
+    "static/media/NotFound.gif": "/RestAPI-React/static/media/NotFound.7a20d452463fe471672a.gif",
+    "static/media/DropDown.gif": "/RestAPI-React/static/media/DropDown.0d1de7590822accd9f14.gif",
+    "static/media/image-1.svg": "/RestAPI-React/static/media/image-1.5c3993969dd8ec5381b962fade97bd2d.svg",
+    "static/media/sun.svg": "/RestAPI-React/static/media/sun.04f94e7a5348c4134d3c1e83c0fbb00e.svg",
+    "static/media/moon.svg": "/RestAPI-React/static/media/moon.e41b29f467ba78ca54133101ffa0ab98.svg",
+    "static/media/location.svg": "/RestAPI-React/static/media/location.bb2752f02b25d57ce89138b085b807c7.svg",
+    "static/media/search.svg": "/RestAPI-React/static/media/search.202143ed21b0ad789a7d.svg",
+    "index.html": "/RestAPI-React/index.html",
+    "static/media/arrow_left.svg": "/RestAPI-React/static/media/arrow_left.8574fd6c0917b48a9e7b431c8f8fff4a.svg",
+    "static/media/keyboard_arrow_down.svg": "/RestAPI-React/static/media/keyboard_arrow_down.3e8079f477981cc441cfc56bd48ccdc1.svg",
+    "main.03fae254.css.map": "/RestAPI-React/static/css/main.03fae254.css.map",
+    "main.8dfb9181.js.map": "/RestAPI-React/static/js/main.8dfb9181.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03fae254.css",
+    "static/js/main.8dfb9181.js"
+  ]
+}
