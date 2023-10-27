@@ -13,8 +13,8 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/:id" element={<CountryPage />} />
+          <Route path="/RestAPI-React" element={<Main />} />
+          <Route path="/RestAPI-React/:id" element={<CountryPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
