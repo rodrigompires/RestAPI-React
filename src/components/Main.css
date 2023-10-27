@@ -1,0 +1,148 @@
+.main {
+    width: 100%;
+}
+
+.mainContainer {
+    padding: 0 4.95rem;
+    width: 100%;
+}
+
+.mainInputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.94rem;
+    position: relative;
+}
+
+.inputSearch {
+    outline: none;
+    border: 1px solid transparent;
+    width: 30.1rem;
+    height: 3.50rem;
+    border-radius: .25rem;
+    background-image: url(/src/assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-position: left 28px center;
+    padding-left: 4.63rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    color: #dedede;
+}
+
+.inputSearch::placeholder {
+    font-family: var(--nunito);
+    color: #dedede;
+    font-size: .89rem;
+}
+
+
+
+.inputFilter {
+    width: 12.7rem;
+    height: 3.50rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding-left: 1.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.iconArrowDown {
+    margin-right: .94rem;
+    width: 1.13rem;
+    transition: .5s;
+}
+
+.rotateIcon {
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+
+.inputPlaceholder {
+    font-size: var(--font_default);
+    color: #6C6C6E;
+}
+
+
+
+/* CONTEUDO DO FILTRO */
+
+.contentFilter {
+    top: 3.8rem;
+    right: 0;
+    width: 12.7rem;
+    height: 10.2rem;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    padding: 5px 1.5rem;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: animeShowModal .3s forwards;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.nameRegions {
+    margin-bottom: 3px;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+}
+
+.nameRegions:hover {
+    background-color: rgba(238, 228, 228, .5);
+    animation: ping 1s ease-in-out infinite;
+}
+
+@keyframes ping {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(8px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+}
+
+
+
+.animeShowModal {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: animeShowModal .3s forwards;
+}
+
+@keyframes animeShowModal {
+    to {
+        opacity: 1;
+        transform: initial;
+        pointer-events: all;
+    }
+}
+
+.animeCloseModal {
+    opacity: 1;
+    transform: translateY(0px);
+    animation: animeCloseModal .3s forwards;
+}
+
+@keyframes animeCloseModal {
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none;
+    }
+}

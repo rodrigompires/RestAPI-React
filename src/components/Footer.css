@@ -1,0 +1,86 @@
+.footerBox {
+    margin-top: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+    height: 5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    background-color: var(--dark_modeText_light_modeElements);
+	
+}
+
+.footerAvatar {
+    width: 2.5rem;
+    margin-left: 1rem;
+	cursor: pointer;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: .8rem;    
+}
+
+.authorText {
+    color: #333;
+    font-size: .84rem;
+}
+
+.btnFlip {
+    opacity: 1;
+	outline: 0;
+	line-height: 35px;
+	position: relative;
+	text-align: center;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.btnFlip:hover::after {
+    opacity: 1;
+	transform: translateY(0) rotateX(0);
+}
+
+.btnFlip:hover::before {
+    opacity: 0;
+	transform: translateY(50%) rotateX(90deg);
+}
+
+
+
+.btnFlip::after {
+    top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	color: black;
+	display: block;
+	transition: 0.5s;
+	position: absolute;
+	background: #ff884d;
+	content: attr(data-back);
+	transform: translateY(-50%) rotateX(90deg);
+	font-size: 1rem;
+}
+
+.btnFlip::before {
+    top: 0;
+	left: 0;
+	opacity: 1;
+	color: white;
+	display: block;
+	padding: 0 0;
+	line-height: 35px;
+	transition: 0.5s;
+	position: relative;
+	background: #17364d ;
+	content: attr(data-front);
+	transform: translateY(0) rotateX(0);
+	font-size: 1rem;
+}
