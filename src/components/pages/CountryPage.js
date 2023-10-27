@@ -45,7 +45,7 @@ const CountryPage = () => {
   return (
     <>
       <section className="containerPageCountry">
-        <Link to={"/RestAPI-React/"} className="linkBack">
+        <Link to={"/RestAPI-React"} className="linkBack">
           <div className="inputButton">
             <IconArrowLeft className="iconArrowLeft" />
             Back
@@ -134,7 +134,7 @@ const CountryPage = () => {
                             <Link
                               className="itemsListBorders"
                               key={index}
-                              to={`/${iso
+                              to={`/RestAPI-React/${iso
                                 .whereAlpha3(border)
                                 .country.replace("-")
                                 .toLowerCase()}`}
