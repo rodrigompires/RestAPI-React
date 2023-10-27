@@ -2,7 +2,7 @@
   "name": "rest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rodrigompires.github.io/RestAPI-React",
+  "homepage": "https://rodrigompires.github.io/RestAPI-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
